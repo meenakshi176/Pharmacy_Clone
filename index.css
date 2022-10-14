@@ -1,0 +1,490 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  /* navbar css */
+  #container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    background-color: rgb(25, 99, 99);
+    color: white;
+   justify-content: space-evenly;
+   margin-top: 10px;
+   font-size: 20px;
+   }
+   .navsection{
+    display: flex;
+    width: 100%;
+ height: 60px;
+ justify-content: space-evenly;
+ margin-top: 20px;
+       }
+       .navsection>a{
+        display: flex;
+        color: white;
+       text-decoration: none;
+         }
+       img{
+        margin-bottom: 30px;
+       }
+    /* main part css */
+#box1 {
+    display: flex;
+    width: 90%;
+    margin: 10px auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+  .contain1 {
+    width: 430px;
+    height: 190px;
+    border: 1px solid rgb(193, 192, 192);
+    border-radius: 6px;
+    position: relative;
+    cursor: pointer;
+  }
+  .contain2 {
+    height: 115px;
+    border-radius: 6px 6px 0 0;
+    width: 100%;
+    background-color: rgba(53, 194, 169, 0.24);
+    display: flex;
+    padding: 30px 0 0 25px;
+    align-items: center;
+    
+  }
+  .contain4{
+    width: 150px;
+    height: 28px;
+    background-image: url("https://assets.pharmeasy.in/web-assets/dist/1602b4ce.svg");
+    padding: 5px;
+    font-size: 12px;
+    color: #fff;
+    border-top-left-radius: 6px;
+    font-weight: 700;
+    line-height: 1.5;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .contain3 {
+    font-size: 20px;
+    color: #4f585e;
+    padding-right: 15px;
+    font-weight: 700;
+    line-height: 1.5;
+    z-index: 2;
+  }
+  .contain5{
+    width: 186px;
+    height: 100%;
+    border-top-right-radius: 6px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .contain5 > img {
+    width: 100%;
+    border-top-right-radius: 6px;
+  }
+  .contain8{
+    background-color: #3bb896;
+    border-radius: 6px;
+    padding: 0 25px;
+    border: none;
+    height: 45px;
+    color: #fff;
+    position: absolute;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.2mm;
+    margin: 15px 0 0 25px;
+    cursor: pointer;
+  }
+  .contain6{
+    background-color: rgb(247, 238, 223);
+  }
+  .contain7{
+    background-color: rgb(224, 240, 247);
+  }
+  .contain36 {
+    background-color: rgb(255, 118, 13);
+  }
+  .contain9{
+    background-color: rgb(6, 183, 227);
+  }
+  #box2 {
+    width: 92%;
+   margin: 80px auto 60px auto;
+    display: flex;
+    background-image: url("https://assets.pharmeasy.in/web-assets/dist/f5c40209.svg");
+    background-color: #a291fa;
+    height: 100px;
+    border-radius: 6px;
+    position: relative;
+  }
+  #box3 {
+    padding: 30px 25px 0 25px;
+    width: 250px;
+  }
+  #box3> img {
+    width: 100%;
+  }
+  #box5 > img {
+    height: 136px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  #box4{
+    display: flex;
+    width: 800px;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    
+  }
+  #box6{
+    width: 92%;
+    margin: auto;
+  }
+  #box7 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #box8 {
+    display: flex;
+    align-items: center;
+    color: rgb(118, 118, 118);
+  }
+  #box8 > h2,
+  #box8 > div {
+    padding: 0 10px;
+  }
+  #box9 > h2 {
+    padding: 0 20px;
+    color: #3bb896;
+  }
+  
+  #box10 {
+    display: flex;
+    width: 100%;
+   justify-content: space-between;
+  }
+  .contain10 {
+    display: flex;
+    padding: 10px;
+    width: 300px;
+    border: 2px solid rgb(184, 182, 182);
+    border-radius: 6px;
+  }
+  .contain11 {
+    width: 120px;
+  }
+  .contain11 > img {
+    width: 100%;
+    height: 100%;
+  }
+  .contain12{
+    max-width: 180px;
+   padding: 10px;
+   font-size: 14px;
+    color: rgb(85, 83, 83);
+  }
+  #box11 {
+    margin: 40px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+   background-color: #d4e2fa;
+    cursor: pointer;
+  }
+  .contain13 {
+    width: 420px;
+    padding: 30px 0px 30px 50px;
+    line-height: 30px;
+  }
+  #box12{
+   width: 1000px;
+   display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 70px;
+  }
+  .contain15 {
+    width: 310px;
+   /* border: 2px solid #10847e; */
+    padding: 20px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+    line-height: 25px;
+  }
+  .contain13 > h2 {
+    color: rgb(88, 86, 86);
+  }
+  .contain14 {
+    padding: 0 20px;
+   color: rgb(96, 95, 95);
+    letter-spacing: 0.1mm;
+    line-height: 40px;
+  }
+  .contain16 {
+    font-size: 16px;
+    color: rgb(69, 58, 58);
+  }
+  .contain17 {
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+  }
+  .contain18 {
+    font-size: 12px;
+    color: rgb(158, 151, 151);
+  }
+  .contain15 > img {
+    width: 50px;
+    height: 60px;
+  }
+  .contain19{
+    color: teal;
+    border: none;
+    font-weight: bold;
+    background-color: white;
+  }
+  .contain19:hover{
+    color: white;
+    background-color: teal;
+     border: none;
+    padding: 10px;
+    border-radius: 6px 0px 0px 6px;
+   
+  }
+.contain21 {
+    bottom: 20px;
+  }
+  #box13 {
+    width: 92%;
+   margin: 100px auto 60px auto;
+  }
+  #box14 {
+   width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor: pointer;
+  }
+  .contain22 {
+    width: 150px;
+    height: 200px;
+   border-radius: 6px;
+    flex-shrink: none;
+  }
+  .contain22 > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+  }
+  #box13 > h2 {
+    color: rgb(115, 112, 112);
+    margin-bottom: 30px;
+  }
+  #box15{
+      width:100%;
+      padding: 2% 4%;
+     height: 250px;
+      background-color: rgb(248, 229, 233);
+  }
+  #box16{
+  display: flex;
+  align-items: baseline;
+  }
+  #box17{
+      color: rgb(85, 78, 78);
+      margin: 0 60px 0 30px;
+  }
+  #box19{
+      width: 100%;
+      display: flex;
+      margin-top: 30px;
+      justify-content: space-between;
+  }
+  .contain23{
+      width:230px;
+      background-color: white;
+      position: relative;
+      border-radius: 6px;
+  }
+  .contain24{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width:230px;
+      height: 230px;
+      /* border: 2px solid gray; */
+      border-radius: 6px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      
+  }
+  .contain24>img{
+      width:70%;
+      height: 70%;
+  
+  }
+  .contain25{
+      width:90px;
+      height: 25px;
+      background-image: url("https://assets.pharmeasy.in/web-assets/dist/1602b4ce.svg");
+      border-top-left-radius: 6px;
+      position: absolute;
+      top:0;
+      left:0;
+      padding: 5px 5px;
+      font-size: 13px;
+      color: white;
+  }
+  .contain23>p{
+      margin-bottom: 10px;
+      color: rgb(69, 58, 58);
+  }
+  .contain23 .contain26 {
+      color: gray;
+      font-size: 13px;
+  }
+  .contain23 .contain26 span{
+      text-decoration: line-through;
+  }
+  .contain23 .contain27{
+      font-weight: bold;
+  }
+  #box20{
+      width:92%;
+      display: flex;
+      margin: 20px auto 60px auto;
+      justify-content: space-between;
+      padding: 10px 0px;
+      flex-wrap: wrap;
+  }
+  .contain28{
+      width:300px;
+  }
+  .contain28>h1{
+      font-size: 42px;
+      font-weight: 700;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      color: #4f585e;
+  }
+  .contain28>p{
+      font-size: 18px;
+       color: #4f585e;
+  }
+  .contain29{
+      width: 92%;
+      margin: 10px auto;
+     display: flex;
+      justify-content: space-between;
+      color: #4f585e;
+   }
+  .contain30{
+    width:320px;
+ color: #4f585e;
+ margin-left: 10px;
+    }
+  .contain31{
+      max-height: 300px;
+      padding: 20px 20px;
+      background: #eafbf2;
+  }
+  .contain32{
+      font-size: 60px;
+      color:  #9ec6b1;
+      margin-bottom: -30px;
+  }
+  .contain33{
+      font-size: 12px;
+      color: #4f585e;
+  }
+  #box21{
+      margin-left:4%;
+      color: #4f585e;
+      margin-top: 20px;
+      margin-bottom: -250px;
+    
+  }
+  #box22{
+      width: 100%;
+      height: 300px;
+      padding: 2% 4%;
+      margin: 30px 0 0 0;
+      background-color:  #f2f5f5;
+      background-image: url("https://assets.pharmeasy.in/web-assets/dist/1d1ccea7.jpg");
+  }
+  #box25{
+      display: flex;
+      width:320px;
+      justify-content: space-between;
+  }
+  .contain37{
+      width: 150px;
+  }
+  .contain37>a>img{
+      width: 150px;
+  }
+  #box23{
+      color: #4f585e;
+      margin-bottom: 100px;
+  }
+  #box24{
+      color: #4f585e;
+      margin-bottom: 20px;
+  }
+
+  
+  @media all and (max-width:1380px){
+       #box12{
+          overflow: scroll; 
+      }
+      #box19{
+          overflow-x: scroll;
+      }
+     
+  }
+  @media all and (max-width:685px){
+      .contain30{
+          overflow-x: scroll;
+      }
+  }
+  #health{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 15px;
+    width: 95%;
+ }
+h4{
+    margin-top: 300px;
+    margin-left: 20px;
+  }
+
+  #health>div>img{
+   width: 100%;
+  }
+  button{
+   border: none;
+   color: teal;
+   padding: 10px 10px;
+   font-weight: bold;
+   background-color: white;
+  }
+
+

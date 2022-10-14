@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#main-container{
+display: flex;
+color: black;
+width: 80%;
+height: 320px;
+margin: auto;
+padding-top: 30px;
+}
+#search-div{
+height: 200px;
+background-color: #10847e;
+width: 600px;
+border-radius: 10px;
+margin-top: 20px;
+color: white;
+}
+
+#search-bar > input{
+height: 50px;
+width: 400px;
+border: none;
+padding-left: 20px;
+font-size: 15px;
+color: #4f585e;
+}
+#search-bar{
+display: flex;
+width: 90%;
+height: 50px;
+margin-left: 30px;
+background-color: white;
+margin-top: 20px;
+border-radius: 5px;
+}
+#pincode{
+width: 150px;
+border-radius: 10px;
+color: #10847e;
+font-size: 15px;
+border: none
+}
+#div-search ,#searchtitle{
+display: flex;
+color: white;
+margin-left: 30px;
+
+}
+#div-search > div , #searchtitle{
+display: flex;
+margin-right: 30px;
+margin-top: 30px;
+}
+.div2{
+width: 40%;
+height: 300px;
+margin-top: 60px;
+margin-left: 80px;
+display: flex;
+}
+.div2 > h1{
+width: 40%;
+color: rgb(175, 170, 170);
+}
+.div2 >img{
+height: 150px;
+margin-top: 50px;
+}
+#row{
+display: grid;
+grid-template-columns: repeat(3,300px);
+grid-template-rows: repeat(auto);
+gap: 30px;
+justify-content: space-evenly;
+text-align: center;
+}
+#row > div > img{
+width: 200px;
+height: 300px;
+}
+#row > div > button{
+height: 40px;
+width: 150px;
+text-align: center;
+border: none;
+background-color: #10847e;
+color: white;
+font-size: 15px;
+}
+#amount{
+display: flex;
+justify-content: space-evenly;
+}
+#amount > button{
+
+height: 50px;
+width: 300px;
+text-align: center;
+border: none;
+background-color: #10847e;
+color: white;
+font-size: 30px;
+margin-top: 50px;
+}
+#cuppon > button{
+margin-left: 35%;
+height: 50px;
+width: 400px;
+text-align: center;
+border: none;
+background-color: #10847e;
+color: white;
+font-size: 20px;
+margin-top: 50px;
+}

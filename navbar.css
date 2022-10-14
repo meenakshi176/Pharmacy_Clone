@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#container{
+width: 80%;
+margin: auto;
+display: flex;
+background-color: rgb(25, 99, 99);
+color: white;
+justify-content: space-evenly;
+margin-top: 10px;
+font-size: 20px;
+}
+.navsection{
+display: flex;
+width: 100%;
+height: 60px;
+justify-content: space-evenly;
+margin-top: 20px;
+
+}
+.navsection>a{
+display: flex;
+color: white;
+text-decoration: none;
+}
+img{
+margin-bottom: 30px;
+}
